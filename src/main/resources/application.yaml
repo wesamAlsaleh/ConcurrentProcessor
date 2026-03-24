@@ -1,3 +1,8 @@
 spring:
   application:
     name: ConcurrentProcessor
+
+# Path to the CSV file containing employee data
+csv:
+  file:
+    path: src/data/test_employees.csv
